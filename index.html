@@ -28,6 +28,9 @@
                 width: 500px;
                 height: 500px;
             }
+             .artigo-autor {
+                font-weight: bold;
+            }
         </style>
     </head>
          <body>
@@ -37,10 +40,19 @@
              </header>
              <main>
                 <img src="bola.png" alt="Um ícone minimalista e estilizado de uma bola de futebol girando com linhas de movimento.">
-                 <h2>Meu primeiro post</h2>
-                 <p>Por: Kaua Machry</p>
-                 <p>Boas-vindas ao meu portal de noticias!Aqui eu vou
-                     compartilhar tudo o que acontece e o que esta acontecendo no mundo do futebol.</p>
+                <div>
+
+                    <h2>Meu primeiro post</h2>
+                    <p class="artigo-autor">Por: Kaua Machry</p>
+                    <p>Boas-vindas ao meu portal de noticias!Aqui eu vou
+                        compartilhar tudo o que acontece e o que esta acontecendo no mundo do futebol.</p>
+                        <button>👍​ <span>0</span></button>
+                </div>
               </main>
         </body>
+        <script>
+            const botao = document.querySelector("botton");
+            botao.addEventListener("click", botaoClicado);
+            
+        </script>
 </html>
