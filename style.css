@@ -44,6 +44,7 @@ padding: 16px;
 background-color: #183C63;
 padding: 16px;
 }
+
 main {
 background-color: var(--cor-fundo);
 color: var(--cor-primaria);
@@ -52,6 +53,7 @@ padding: 16px;
 
 display: flex;
 }
+
 article{
     display: flex;
 
@@ -62,10 +64,23 @@ gap: 16px;
 padding: 16px; 
 
 }
+
+
 img{
 width: 200px;
 height: 200px;
 }
+
 .artigo-autor {
 font-weight: bold;
+}
+
+.btn-tema-escuro{
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    font-size: 32px;
+    padding: 12px;
+    background-color: var(--cor-primaria);
+    border-radius: 50%;
 }

@@ -16,3 +16,16 @@ curtiu = false;
 }
 }
 });
+
+const btnTemaEscuro = document.querySelector("btn-tema-escuro");
+
+btnTemaEscuro.addEventListener("click", mudaTema);
+
+function mudaTema() {
+    const corpodapagina = document.body;
+    if (corpodapagina.classList.contains("tema-escuro")){
+        corpodapagina.classList.remove("tema-escuro");
+    } else {
+        corpodapagina.classList.add("tema-escuro");
+    }
+}
