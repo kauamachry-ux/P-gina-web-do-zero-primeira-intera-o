@@ -22,10 +22,11 @@ const btnTemaEscuro = document.querySelector("btn-tema-escuro");
 btnTemaEscuro.addEventListener("click", mudaTema);
 
 function mudaTema() {
-    const corpodapagina = document.body;
-    if (corpodapagina.classList.contains("tema-escuro")){
-        corpodapagina.classList.remove("tema-escuro");
+    const corpoPagina = document.body;
+
+    if (corpoPagina.classList.contains("tema-escuro")) {
+        corpoPagina.classList.remove("tema-escuro");
     } else {
-        corpodapagina.classList.add("tema-escuro");
+        corpoPagina.classList.add("tema-escuro");
     }
 }
